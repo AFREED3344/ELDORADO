@@ -445,8 +445,17 @@ pre {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }
+  .edrc{
+    max-height: 40px;
+  }
+  .edrccenter{
+    max-height: 100px;
+  }
 
-.container {
+.containerC {
+  color: #FFF
+  ; }
+  .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -8332,7 +8341,10 @@ h1, h2, h3, h4, h5,
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px; }
+  .herow {
 
+    position: relative;
+   }
 .hero {
   position: relative;
   z-index: 0; }
@@ -8355,7 +8367,9 @@ h1, h2, h3, h4, h5,
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff; }
-
+    .home-wrap .halfw {
+      width: 100%;
+      background: #000000; }
 .home-wrap .half {
   width: 50%;
   background: #000000; }
